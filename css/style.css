@@ -1,42 +1,42 @@
 @charset "UTF-8";
 @font-face {
   font-family: "SF Pro Display";
-  src: url("../fonts/SFProDisplay-Heavy.woff2") format("woff2"), url("../fonts/SFProDisplay-Heavy.woff") format("woff");
+  src: url("../assets/fonts/SFProDisplay-Heavy.woff2") format("woff2"), url("../assets/fonts/SFProDisplay-Heavy.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Inter";
-  src: url("../fonts/Inter18pt-Regular.woff2") format("woff2"), url("../fonts/Inter18pt-Regular.woff") format("woff");
+  src: url("../assets/fonts/Inter18pt-Regular.woff2") format("woff2"), url("../assets/fonts/Inter18pt-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Inter";
-  src: url("../fonts/Inter18pt-Medium.woff2") format("woff2"), url("../fonts/Inter18pt-Medium.woff") format("woff");
+  src: url("../assets/fonts/Inter18pt-Medium.woff2") format("woff2"), url("../assets/fonts/Inter18pt-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Inter";
-  src: url("../fonts/Inter18pt-Bold.woff2") format("woff2"), url("../fonts/Inter18pt-Bold.woff") format("woff");
+  src: url("../assets/fonts/Inter18pt-Bold.woff2") format("woff2"), url("../assets/fonts/Inter18pt-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff");
+  src: url("../assets/fonts/Poppins-SemiBold.woff2") format("woff2"), url("../assets/fonts/Poppins-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Inter";
-  src: url("../fonts/Inter18pt-SemiBold.woff2") format("woff2"), url("../fonts/Inter18pt-SemiBold.woff") format("woff");
+  src: url("../assets/fonts/Inter18pt-SemiBold.woff2") format("woff2"), url("../assets/fonts/Inter18pt-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -56,7 +56,7 @@ li {
   list-style: none;
 }
 
-a:visited {
+a, a:visited {
   text-decoration: none;
 }
 
@@ -118,18 +118,22 @@ body._lock {
 
 [class*=__container] {
   margin: 0 auto;
-  max-width: 1342px;
+  max-width: 1310px;
   padding: 0 15px;
 }
-
-@media (max-width: 499.98px) {
+@media (max-width: 960.98px) {
   [class*=__container] {
     padding: 0 10px;
   }
 }
+@media (max-width: 375.98px) {
+  [class*=__container] {
+    padding: 0 5px;
+  }
+}
 
 .header__body {
-  padding: 51px 0;
+  padding: 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -139,11 +143,6 @@ body._lock {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-@media (max-width: 619.98px) {
-  .header__body {
-    padding: 21px 0;
-  }
 }
 .header__logo {
   z-index: 10;
@@ -252,7 +251,6 @@ body._lock {
   font-size: 12px;
   color: #fafaf9;
   text-transform: uppercase;
-  text-decoration: none;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }

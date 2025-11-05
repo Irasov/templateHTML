@@ -1,21 +1,6 @@
 @import "fonts";
 @import "vars";
 @import "null";
-
-.mainpage{
-    flex-grow: 1;
-}
-
-[class*="__container"] {
-    margin: 0 auto;
-    max-width: $max-w;
-    padding: 0 15px;
-}
-[class*="__container"] {
-    @media(max-width: 499.98px) {
-        padding: 0 10px;
-    }
-}
-
+@import "adaptive";
 @import "header";
 @import "footer";

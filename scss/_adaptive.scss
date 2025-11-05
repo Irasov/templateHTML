@@ -1,0 +1,18 @@
+.mainpage{
+    flex-grow: 1;
+}
+
+[class*="__container"] {
+    margin: 0 auto;
+    max-width: $max-w;
+    padding: 0 15px;
+    @media(max-width: $desktop-w) {
+
+    }
+    @media(max-width: $tablet-w) {
+      padding: 0 10px;
+    }
+    @media(max-width: $phone-w) {
+      padding: 0 5px;
+    }
+}
