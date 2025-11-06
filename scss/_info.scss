@@ -1,0 +1,29 @@
+.info {
+
+		// .info__container
+
+		&__container {
+		}
+
+		// .info__body
+
+		&__body {
+			padding: 20px 0;
+		}
+
+		// .info__title
+
+		&__title {
+			font-size: 48px;
+      text-align: center;
+		}
+
+		// .info__subtitle
+
+		&__subtitle {
+			padding: 10px 0;
+			font-size: 18px;
+			text-align: center;
+			line-height: 1.5;
+		}
+}

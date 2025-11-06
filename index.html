@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="assets/img/icon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <title>NAME SITE</title>
   </head>
   <body>
@@ -29,7 +30,32 @@
           </div>
         </div>
       </header>
-      <main class="mainpage"></main>
+      <main class="mainpage">
+        <section class="info">
+          <div class="info__container">
+            <div class="info__body">
+              <h1 class="info__title"> Title title title </h1>
+              <p class="info__subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              </p>
+        </section>
+        <div class="slider-block">
+          <div class="slider-block__container">
+            <div class="slider-block__body">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div> 
+                <div class="swiper-button-next"></div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
       <footer class="footer">
         <div class="footer__container">
           <div class="footer__body"></div>
@@ -38,6 +64,10 @@
     </div>
     <script src="scripts/burger-menu.js"></script>
     <script src="scripts/utils/component.js"></script>
+    <script src="scripts/utils/slide.js"></script>
+    <script src="scripts/utils/slide-info.js"></script>
     <script src="scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="scripts/slider-swiper.js"></script>
   </body>
 </html>
