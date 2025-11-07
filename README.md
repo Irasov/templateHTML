@@ -1,3 +1,3 @@
 # templateHTML
 
-Начальный шаблон для блога(пробуем спортивный)
+[deploy](https://irasov.github.io/templateHTML/)
