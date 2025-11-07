@@ -1,19 +1,8 @@
 const swiperBlock = document.querySelector('.swiper-wrapper');
 const categoriesItems = document.querySelector('.category__items');
 
-if (swiperBlock) {
-  for (let i = 0; i < slideInfo.length; i++) {
-    const slide = createSlide(slideInfo[i]);
-    swiperBlock.appendChild(slide.getNode());
-  }
-}
-
-if (categoriesItems) {
-  for (let i = 0; i < catInfo.length; i++) {
-    const category = createCategory(catInfo[i]);
-    categoriesItems.appendChild(category.getNode());
-  }
-}
+addItems(swiperBlock, slideInfo, createSlide);
+addItems(categoriesItems, catInfo, createCategory);
 
 document.addEventListener('click', (e) => {
   const targetElement = e.target;
@@ -21,3 +10,12 @@ document.addEventListener('click', (e) => {
     burgrMenu();
   }
 });
+
+function addItems(element, items, func) {
+  if (element) {
+    for (let i = 0; i < items.length; i++) {
+      const item = func(items[i]);
+      element.appendChild(item.getNode());
+    }
+  }
+}
