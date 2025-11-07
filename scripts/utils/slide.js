@@ -13,7 +13,11 @@ function createSlide(options) {
     classes: ['slide__title'],
     text: options.title,
   });
-  const main = new Component({ classes: ['slide__main'] }, title, subtitle, link);
+  const cat = new Component({
+    classes: ['slide__cat'],
+    text: options.cat,
+  });
+  const main = new Component({ classes: ['slide__main'] }, cat, title, subtitle, link);
   const img = new Component({ tag: 'img', classes: ['slide__img'] });
   img.setAttribute('alt', options.alt);
   img.setAttribute('src', options.img);
