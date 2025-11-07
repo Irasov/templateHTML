@@ -24,7 +24,7 @@ const slideInfo = [
     link: '#',
   },
   {
-    img: 'assets/slides/s3.webp',
+    img: 'assets/slides/s1.webp',
     alt: 'sport',
     title: 'Slide title4',
     subtitle:
@@ -32,7 +32,7 @@ const slideInfo = [
     link: '#',
   },
   {
-    img: 'assets/slides/s3.webp',
+    img: 'assets/slides/s2.webp',
     alt: 'sport',
     title: 'Slide title5',
     subtitle:
