@@ -1,6 +1,6 @@
 const slideInfo = [
   {
-    img: 'assets/slides/s1.webp',
+    img: 'assets/img/slides/s1.webp',
     alt: 'sport',
     title: 'Slide title1',
     subtitle:
@@ -9,7 +9,7 @@ const slideInfo = [
     cat: 'sport',
   },
   {
-    img: 'assets/slides/s2.webp',
+    img: 'assets/img/slides/s2.webp',
     alt: 'sport',
     title: 'Slide title2',
     subtitle:
@@ -18,7 +18,7 @@ const slideInfo = [
     cat: 'nutrition',
   },
   {
-    img: 'assets/slides/s3.webp',
+    img: 'assets/img/slides/s3.webp',
     alt: 'sport',
     title: 'Slide title3',
     subtitle:
@@ -27,7 +27,7 @@ const slideInfo = [
     cat: 'category',
   },
   {
-    img: 'assets/slides/s1.webp',
+    img: 'assets/img/slides/s1.webp',
     alt: 'sport',
     title: 'Slide title4',
     subtitle:
@@ -36,7 +36,7 @@ const slideInfo = [
     cat: 'category',
   },
   {
-    img: 'assets/slides/s2.webp',
+    img: 'assets/img/slides/s2.webp',
     alt: 'sport',
     title: 'Slide title5',
     subtitle:
