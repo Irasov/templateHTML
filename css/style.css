@@ -528,3 +528,41 @@ body._lock {
 .articles__link:hover {
   background-color: rgb(234.2280701754, 101.8070175439, 53.7719298246);
 }
+
+.footer__body {
+  padding: 20px 0 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
+          column-gap: 15px;
+  row-gap: 15px;
+}
+@media (max-width: 960.98px) {
+  .footer__body {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.footer__logo {
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer__text {
+  font-size: 14px;
+}
+.footer__email {
+  font-size: 14px;
+  color: #171717;
+}
