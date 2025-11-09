@@ -3,7 +3,7 @@ const articlesInfo = [
     img: 'assets/img/articles/a1.webp',
     name: 'Name article 1',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    link: '#',
+    link: 'articles/article1.html',
     cat: 'category1',
   },
   {

@@ -5,7 +5,7 @@ const slideInfo = [
     title: 'Slide title1',
     subtitle:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ea explicabo nesciunt incidunt iure repudiandae quod aliquid praesentium, neque placeat aperiam beatae magni voluptate rerum quasi, ad blanditiis animi consequuntur?',
-    link: '#',
+    link: 'articles/article1.html',
     cat: 'sport',
   },
   {
