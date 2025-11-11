@@ -6,7 +6,7 @@ const slideInfo = [
     subtitle:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ea explicabo nesciunt incidunt iure repudiandae quod aliquid praesentium, neque placeat aperiam beatae magni voluptate rerum quasi, ad blanditiis animi consequuntur?',
     link: 'articles/article1.html',
-    cat: 'sport',
+    cat: 'category1',
   },
   {
     img: 'assets/img/slides/s2.webp',
@@ -15,7 +15,7 @@ const slideInfo = [
     subtitle:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ea explicabo nesciunt incidunt iure repudiandae quod aliquid praesentium, neque placeat aperiam beatae magni voluptate rerum quasi, ad blanditiis animi consequuntur?',
     link: '#',
-    cat: 'nutrition',
+    cat: 'category1',
   },
   {
     img: 'assets/img/slides/s3.webp',
@@ -24,7 +24,7 @@ const slideInfo = [
     subtitle:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ea explicabo nesciunt incidunt iure repudiandae quod aliquid praesentium, neque placeat aperiam beatae magni voluptate rerum quasi, ad blanditiis animi consequuntur?',
     link: '#',
-    cat: 'category',
+    cat: 'category2',
   },
   {
     img: 'assets/img/slides/s1.webp',
@@ -33,7 +33,7 @@ const slideInfo = [
     subtitle:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ea explicabo nesciunt incidunt iure repudiandae quod aliquid praesentium, neque placeat aperiam beatae magni voluptate rerum quasi, ad blanditiis animi consequuntur?',
     link: '#',
-    cat: 'category',
+    cat: 'category3',
   },
   {
     img: 'assets/img/slides/s2.webp',
@@ -42,6 +42,6 @@ const slideInfo = [
     subtitle:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ea explicabo nesciunt incidunt iure repudiandae quod aliquid praesentium, neque placeat aperiam beatae magni voluptate rerum quasi, ad blanditiis animi consequuntur?',
     link: '#',
-    cat: 'sport',
+    cat: 'category4',
   },
 ];

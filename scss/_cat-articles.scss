@@ -1,0 +1,49 @@
+.cat {
+
+		// .cat__articles
+
+		&__articles {
+		}
+}
+.cat-articles {
+
+		// .cat-articles__container
+
+		&__container {
+		}
+
+		// .cat-articles__body
+
+		&__body {
+      padding: 20px 0;
+      border-bottom: 1px solid $line;
+		}
+
+		// .cat-articles__text
+
+		&__text {
+      display: none;
+		}
+
+		// .cat-articles__title
+
+		&__title {
+      padding: 20px 0;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      color: $shape-1;
+      text-transform: uppercase;
+		}
+
+		// .cat-articles__items
+
+		&__items {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 15px;
+      column-gap: 15px;
+      @media(max-width: $tablet-w) {
+        justify-content: center;
+      }
+		}
+}

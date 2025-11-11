@@ -46,14 +46,14 @@ const articlesInfo = [
     name: 'Name article 7',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     link: '#',
-    cat: 'category2',
+    cat: 'category5',
   },
   {
     img: 'assets/img/articles/a8.webp',
     name: 'Name article 8',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     link: '#',
-    cat: 'category2',
+    cat: 'category6',
   },
   {
     img: 'assets/img/articles/a9.webp',
@@ -67,7 +67,7 @@ const articlesInfo = [
     name: 'Name article 10',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     link: '#',
-    cat: 'category1',
+    cat: 'category6',
   },
   {
     img: 'assets/img/articles/a11.webp',

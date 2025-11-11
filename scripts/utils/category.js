@@ -2,22 +2,22 @@ function createCategory(options) {
   const img = new Component({ tag: 'img', classes: ['category__img'] });
   img.setAttribute('alt', options.name.trim());
   img.setAttribute('src', options.img);
-  const imageLink = new Component({ tag: 'a', classes: ['category__image'] }, img);
+  const imageLink = new Component({ tag: 'a', classes: options.classesImgLink }, img);
   imageLink.setAttribute('href', options.link);
 
   const name = new Component({ classes: ['category__name'], text: options.name });
-  const link = new Component({ tag: 'a', classes: ['category__link'] });
-  link.getNode().appendChild(arrow());
+  const link = new Component({ tag: 'a', classes: options.classesLink });
+  link.getNode().appendChild(arrow(options));
   link.setAttribute('href', options.link);
   const info = new Component({ classes: ['category__info'] }, name, link);
   const categoryItem = new Component({ classes: ['category__item'] }, imageLink, info);
   return categoryItem;
 }
 
-function arrow() {
+function arrow(options) {
   const SVG_NS = 'http://www.w3.org/2000/svg';
   const svg = document.createElementNS(SVG_NS, 'svg');
-  svg.setAttribute('class', 'category__arrow');
+  svg.classList.add(...options.classesBtn);
   svg.setAttribute('width', '21');
   svg.setAttribute('height', '8');
   svg.setAttribute('viewBox', '0 0 21 8');
