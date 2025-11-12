@@ -16,7 +16,6 @@ addItems(catArticles, articlesInfo, createArticles, partSite[3], cat);
 
 document.addEventListener('click', (e) => {
   const targetElement = e.target;
-  console.log(targetElement.parentNode);
   if (targetElement.closest('.header__icon')) {
     burgrMenu();
   }
