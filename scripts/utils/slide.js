@@ -7,11 +7,11 @@ function createSlide(options) {
   link.setAttribute('href', options.link);
   const subtitle = new Component({
     classes: ['slide__subtitle'],
-    text: options.subtitle,
+    text: options.text,
   });
   const title = new Component({
     classes: ['slide__title'],
-    text: options.title,
+    text: options.name,
   });
   const cat = new Component({
     classes: ['slide__cat'],
@@ -19,7 +19,7 @@ function createSlide(options) {
   });
   const main = new Component({ classes: ['slide__main'] }, cat, title, subtitle, link);
   const img = new Component({ tag: 'img', classes: ['slide__img'] });
-  img.setAttribute('alt', options.alt);
+  img.setAttribute('alt', options.name);
   img.setAttribute('src', options.img);
   const image = new Component({ classes: ['slide__image'] }, img);
   const slideContainer = new Component({ classes: ['slide'] }, image, main);

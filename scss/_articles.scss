@@ -10,6 +10,9 @@
 		&__body {
       padding: 20px 0;
       border-bottom: 1px solid $line;
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
 		}
 
 		// .articles__title
@@ -20,7 +23,7 @@
 		// .articles__items
 
 		&__items {
-      padding: 15px 0 0 0;
+      padding: 15px 0;
       display: flex;
       column-gap: 15px;
       row-gap: 15px;
@@ -94,6 +97,12 @@
       border-radius: 5px;
       font-size: 14px;
       transition: background-color 0.3s;
+      &_flex {
+        min-width: 200px;
+        max-width: 200px;
+        text-align: center;
+        align-self: center;
+      }
       &:hover {
         background-color: darken($shape-1, 10%);
       }

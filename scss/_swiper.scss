@@ -34,6 +34,7 @@
   // .slide__main
 
   &__main {
+    flex: 1 1 100%;
     display: flex;
     flex-direction: column;
     row-gap: 15px;
