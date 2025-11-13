@@ -44,7 +44,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 600;
-    color: $shape-1;
+    color: $text-3;
     text-transform: uppercase;
   }
 
@@ -67,13 +67,13 @@
   &__link {
     align-self: flex-end;
     padding: 10px 15px;
-    background-color: $shape-1;
+    background-color: $text-3;
     color: #fff;
     border-radius: 5px;
     font-size: 14px;
     transition: background-color 0.3s;
     &:hover {
-      background-color: darken($shape-1, 10%);
+      background-color: darken($text-3, 10%);
     }
   }
   @media(max-width: $tablet-w) {
